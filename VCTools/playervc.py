@@ -6,6 +6,7 @@ from userbot import Config, PandaBot
 from userbot._misc.data import _sudousers_list
 from userbot._misc.logger import logging
 from userbot.helpers.utils import reply_id
+from userbot._database._var import Var, Database
 
 from exportir.RawUtilities.function import check_vcassis, sendmsg, vc_player, vc_reply
 from exportir.RawUtilities.inlinevc import buttons
@@ -64,7 +65,7 @@ async def joinVoicechat(event):
         )
 
     try:
-        vc_chat = await event.client.get_entity(chat)
+        vc_chat = await vc_player.client.get_entity(chat)
     except Exception as e:
         return await vc_reply(event, f'ERROR : \n{e or "UNKNOWN CHAT"}')
 
@@ -244,14 +245,14 @@ async def play_video(event):
         return await vc_reply(event, "Please Provide a media file to stream on VC")
     if not vc_player.CHAT_ID:
         try:
-            vc_chat = await catub.get_entity(event.chat_id)
+            vc_chat = await vc_player.client.get_entity(event.chat_id)
         except Exception as e:
             return await vc_reply(event, f'ERROR : \n{e or "UNKNOWN CHAT"}')
         if isinstance(vc_chat, User):
             return await vc_reply(
                 event, "Voice Chats are not available in Private Chats"
             )
-        if Config.VC_SESSION:
+        if Var.VC_STRING_SESSION:
             check = await check_vcassis(event)
             if not check:
                 return
