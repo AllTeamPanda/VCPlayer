@@ -8,11 +8,7 @@ from userbot._misc.logger import logging
 from userbot.helpers.utils import reply_id
 from userbot._database._var import Var, Database
 
-from exportir.RawUtilities.VCTools.function import check_vcassis, sendmsg, vc_player, vc_reply
-from exportir.RawUtilities.VCTools.inlinevc import buttons
-from exportir.RawUtilities.VCTools.stream_helper import Stream
-from exportir.RawUtilities.VCTools.tg_downloader import tg_dl
-
+from userbot.resources import *
 plugin_category = "music"
 
 LOGS = logging.getLogger(__name__)
