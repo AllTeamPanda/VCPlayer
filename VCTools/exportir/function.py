@@ -221,58 +221,208 @@ else:
 
     
     
+if Var.VC_STRING_SESSION:
+    vc_player = VCTools(vc_client)
+else:
+    vc_player = None
+if Var.VC_STRING_SESSION2:
+    vc_player2 = VCTools(vc_client2)
+else:
+    vc_player2 = None
+if Var.VC_STRING_SESSION3:
+    vc_player3 = VCTools(vc_client3)
+else:
+    vc_player3 = None
+if Var.VC_STRING_SESSION4:
+    vc_player4 = VCTools(vc_client4)
+else:
+    vc_player4 = None
+if Var.VC_STRING_SESSION5:
+    vc_player5 = VCTools(vc_client5)
+else:
+    vc_player5 = None
+if Var.VC_STRING_SESSION6:
+    vc_player6 = VCTools(vc_client6)
+else:
+    vc_player6 = None
+if Var.VC_STRING_SESSION7:
+    vc_player7 = VCTools(vc_client7)
+else:
+    vc_player7 = None
+if Var.VC_STRING_SESSION8:
+    vc_player8 = VCTools(vc_client8)
+else:
+    vc_player8 = None
+if Var.VC_STRING_SESSION:
+    vc_player9 = VCTools(vc_client9)
+else:
+    vc_player9 = None
+if Var.VC_STRING_SESSION10:
+    vc_player10 = VCTools(vc_client10)
+else:
+    vc_player10 = None
+if Var.VC_STRING_SESSION11:
+    vc_player11 = VCTools(vc_client11)
+else:
+    vc_player11 = None
+if Var.VC_STRING_SESSION12:
+    vc_player12 = VCTools(vc_client12)
+else:
+    vc_player12 = None
+if Var.VC_STRING_SESSION13:
+    vc_player13 = VCTools(vc_client13)
+else:
+    vc_player13 = None
+if Var.VC_STRING_SESSION14:
+    vc_player14 = VCTools(vc_client14)
+else:
+    vc_player14 = None
+if Var.VC_STRING_SESSION15:
+    vc_player15 = VCTools(vc_client15)
+else:
+    vc_player15 = None
+if Var.VC_STRING_SESSION16:
+    vc_player16 = VCTools(vc_client16)
+else:
+    vc_player16 = None
+if Var.VC_STRING_SESSION17:
+    vc_player17 = VCTools(vc_client17)
+else:
+    vc_player17 = None
+if Var.VC_STRING_SESSION18:
+    vc_player18 = VCTools(vc_client18)
+else:
+    vc_player18 = None
+if Var.VC_STRING_SESSION19:
+    vc_player19 = VCTools(vc_client19)
+else:
+    vc_player = None
+if Var.VC_STRING_SESSION20:
+    vc_player20 = VCTools(vc_client20)
+else:
+    vc_player20 = None
+if Var.VC_STRING_SESSION21:
+    vc_player21 = VCTools(vc_client21)
+else:
+    vc_player21 = None
+if Var.VC_STRING_SESSION22:
+    vc_player22 = VCTools(vc_client22)
+else:
+    vc_player22 = None
+if Var.VC_STRING_SESSION23:
+    vc_player23 = VCTools(vc_client23)
+else:
+    vc_player23 = None
+if Var.VC_STRING_SESSION24:
+    vc_player24 = VCTools(vc_client24)
+else:
+    vc_player24 = None
+if Var.VC_STRING_SESSION25:
+    vc_player25 = VCTools(vc_client25)
+else:
+    vc_player25 = None
+if Var.VC_STRING_SESSION26:
+    vc_player26 = VCTools(vc_client26)
+else:
+    vc_player26 = None
+if Var.VC_STRING_SESSION27:
+    vc_player27 = VCTools(vc_client27)
+else:
+    vc_player27 = None
+if Var.VC_STRING_SESSION28:
+    vc_player28 = VCTools(vc_client28)
+else:
+    vc_player28 = None
+if Var.VC_STRING_SESSION29:
+    vc_player29 = VCTools(vc_client29)
+else:
+    vc_player29 = None
+if Var.VC_STRING_SESSION30:
+    vc_player30 = VCTools(vc_client30)
+else:
+    vc_player30 = None
+if Var.VC_STRING_SESSION31:
+    vc_player31 = VCTools(vc_client31)
+else:
+    vc_player31 = None
+if Var.VC_STRING_SESSION32:
+    vc_player32 = VCTools(vc_client32)
+else:
+    vc_player32 = None
+if Var.VC_STRING_SESSION33:
+    vc_player33 = VCTools(vc_client33)
+else:
+    vc_player33 = None
+if Var.VC_STRING_SESSION34:
+    vc_player34 = VCTools(vc_client34)
+else:
+    vc_player34 = None
+if Var.VC_STRING_SESSION35:
+    vc_player35 = VCTools(vc_client35)
+else:
+    vc_player35 = None
+if Var.VC_STRING_SESSION36:
+    vc_player36 = VCTools(vc_client36)
+else:
+    vc_player36 = None
+if Var.VC_STRING_SESSION37:
+    vc_player37 = VCTools(vc_client37)
+else:
+    vc_player37 = None
+if Var.VC_STRING_SESSION38:
+    vc_player38 = VCTools(vc_client39)
+else:
+    vc_player38 = None
+if Var.VC_STRING_SESSION39:
+    vc_player39 = VCTools(vc_client39)
+else:
+    vc_player39 = None
+if Var.VC_STRING_SESSION40:
+    vc_player40 = VCTools(vc_client40)
+else:
+    vc_player40 = None
+if Var.VC_STRING_SESSION41:
+    vc_player41 = VCTools(vc_client41)
+else:
+    vc_player41 = None
+if Var.VC_STRING_SESSION42:
+    vc_player42 = VCTools(vc_client42)
+else:
+    vc_player42 = None
+if Var.VC_STRING_SESSION43:
+    vc_player43 = VCTools(vc_clien3t4)
+else:
+    vc_player43 = None
+if Var.VC_STRING_SESSION44:
+    vc_player44 = VCTools(vc_client44)
+else:
+    vc_player44 = None
+if VC_STRING_SESSION45:
+    vc_player45 = VCTools(vc_client45)
+else:
+    vc_player45 = None
+if Var.VC_STRING_SESSION46:
+    vc_player46 = VCTools(vc_client46)
+else:
+    vc_player46 = None
+if Var.VC_STRING_SESSION47:
+    vc_player47 = VCTools(vc_client47)
+else:
+    vc_player47 = None
+if Var.VC_STRING_SESSION48:
+    vc_player48 = VCTools(vc_client48)
+else:
+    vc_player48 = None
+if Var.VC_STRING_SESSION49:
+    vc_player49 = VCTools(vc_client49)
+else:
+    vc_player49 = None
+if Var.VC_STRING_SESSION50:
+    vc_player50 = VCTools(vc_client50)
+else:
+    vc_player50 = None
     
 
-vc_player = VCTools(vc_client)
-vc_player2 = VCTools(vc_client2)
-vc_player3 = VCTools(vc_client3)
-vc_player4 = VCTools(vc_client4)
-vc_player5 = VCTools(vc_client5)
-vc_player6 = VCTools(vc_client6)
-vc_player7 = VCTools(vc_client7)
-vc_player8 = VCTools(vc_client8)
-vc_player9 = VCTools(vc_client9)
-vc_player10 = VCTools(vc_client10)
-vc_player11 = VCTools(vc_client11)
-vc_player12 = VCTools(vc_client12)
-vc_player13 = VCTools(vc_client13)
-vc_player14 = VCTools(vc_client14)
-vc_player15 = VCTools(vc_client15)
-vc_player16 = VCTools(vc_client16)
-vc_player17 = VCTools(vc_client17)
-vc_player18 = VCTools(vc_client18)
-vc_player19 = VCTools(vc_client19)
-vc_player20 = VCTools(vc_client20)
-vc_player21 = VCTools(vc_client21)
-vc_player22 = VCTools(vc_client22)
-vc_player23 = VCTools(vc_client23)
-vc_player24 = VCTools(vc_client24)
-vc_player25 = VCTools(vc_client25)
-vc_player26 = VCTools(vc_client26)
-vc_player27 = VCTools(vc_client27)
-vc_player28 = VCTools(vc_client28)
-vc_player29 = VCTools(vc_client29)
-vc_player30 = VCTools(vc_client30)
-vc_player31 = VCTools(vc_client31)
-vc_player32 = VCTools(vc_client32)
-vc_player33 = VCTools(vc_client33)
-vc_player34 = VCTools(vc_client34)
-vc_player35 = VCTools(vc_client35)
-vc_player36 = VCTools(vc_client36)
-vc_player37 = VCTools(vc_client37)
-vc_player38 = VCTools(vc_client38)
-vc_player39 = VCTools(vc_client39)
-vc_player40 = VCTools(vc_client40)
-vc_player41 = VCTools(vc_client41)
-vc_player42 = VCTools(vc_client42)
-vc_player43 = VCTools(vc_client43)
-vc_player44 = VCTools(vc_client44)
-vc_player45 = VCTools(vc_client45)
-vc_player46 = VCTools(vc_client46)
-vc_player47 = VCTools(vc_client47)
-vc_player48 = VCTools(vc_client48)
-vc_player49 = VCTools(vc_client49)
-vc_player50 = VCTools(vc_client50)
 
 @vc_player.app.on_closed_voice_chat
 @vc_player2.app2.on_closed_voice_chat()
