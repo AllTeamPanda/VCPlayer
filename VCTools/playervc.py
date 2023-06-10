@@ -2,7 +2,7 @@ import contextlib
 import logging
 
 from telethon.tl.types import User
-from userbot import Config, PandaBot
+from userbot import *
 from userbot._misc.data import _sudousers_list
 from userbot._misc.logger import logging
 from userbot.helpers.utils import reply_id
