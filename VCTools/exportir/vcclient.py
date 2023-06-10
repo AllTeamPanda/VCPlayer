@@ -20,6 +20,7 @@ from userbot._misc.logger import logging
 from userbot.helpers import _pandautils, fileinfo
 from userbot.helpers.functions import get_ytthumb, yt_search
 from yt_dlp import YoutubeDL
+from userbot._database._var import Var, Database
 
 from .stream_helper import Stream, check_url, video_dl, yt_regex
 
@@ -107,103 +108,103 @@ class VCTools:
         self.REPEAT = False
 
     async def start(self):
-        if vclient:
+        if Var.VC_STRING_SESSION:
             await self.app.start()
-        if vclient2:
+        if Var.VC_STRING_SESSION2:
             await self.app2.start()
-        if vclient3:
+        if Var.VC_STRING_SESSION3:
             await self.app3.start()
-        if vclient4:
+        if Var.VC_STRING_SESSION4:
             await self.app4.start()
-        if vclient5:
+        if Var.VC_STRING_SESSION5:
             await self.app.start()
-        if vclient6:
+        if Var.VC_STRING_SESSION6:
             await self.app6.start()
-        if vclient7:
+        if Var.VC_STRING_SESSION7:
             await self.app7.start()
-        if vclient8:
+        if Var.VC_STRING_SESSION8:
             await self.app8.start()
-        if vclient9:
+        if Var.VC_STRING_SESSION9:
             await self.app9.start()
-        if vclient10:
+        if Var.VC_STRING_SESSION10:
             await self.app10.start()
-        if vclient11:
+        if Var.VC_STRING_SESSION11:
             await self.app11.start()
-        if vclient12:
+        if Var.VC_STRING_SESSION12:
             await self.app12.start()
-        if vclient13:
+        if Var.VC_STRING_SESSION13:
             await self.app13.start()
-        if vclient14:
+        if Var.VC_STRING_SESSION14:
             await self.app14.start()
-        if vclient15:
+        if Var.VC_STRING_SESSION15:
             await self.app15.start()
-        if vclient16:
+        if Var.VC_STRING_SESSION16:
             await self.app16.start()
-        if vclient17:
+        if Var.VC_STRING_SESSION17:
             await self.app17.start()
-        if vclient18:
+        if Var.VC_STRING_SESSION18:
             await self.app18.start()
-        if vclient19:
+        if Var.VC_STRING_SESSION19:
             await self.app19.start()
-        if vclient20:
+        if Var.VC_STRING_SESSION20:
             await self.app20.start()
-        if vclient21:
+        if Var.VC_STRING_SESSION21:
             await self.app21.start()
-        if vclient22:
+        if Var.VC_STRING_SESSION22:
             await self.app22.start()
-        if vclient23:
+        if Var.VC_STRING_SESSION23:
             await self.app23.start()
-        if vclient24:
+        if Var.VC_STRING_SESSION24:
             await self.app24.start()
-        if vclient25:
+        if Var.VC_STRING_SESSION25:
             await self.app25.start()
-        if vclient26:
+        if Var.VC_STRING_SESSION26:
             await self.app26.start()
-        if vclient27:
+        if Var.VC_STRING_SESSION27:
             await self.app27.start()
-        if vclient28:
+        if Var.VC_STRING_SESSION28:
             await self.app28.start()
-        if vclient29:
+        if Var.VC_STRING_SESSION29:
             await self.app29.start()
-        if vclient30:
+        if Var.VC_STRING_SESSION30:
             await self.app30.start()
-        if vclient31:
+        if Var.VC_STRING_SESSION31:
             await self.app31.start()
-        if vclient32:
+        if Var.VC_STRING_SESSION32:
             await self.app32.start()
-        if vclient33:
+        if Var.VC_STRING_SESSION33:
             await self.app33.start()
-        if vclient34:
+        if Var.VC_STRING_SESSION34:
             await self.app34.start()
-        if vclient35:
+        if Var.VC_STRING_SESSION35:
             await self.app35.start()
-        if vclient36:
+        if Var.VC_STRING_SESSION36:
             await self.app36.start()
-        if vclient37:
+        if Var.VC_STRING_SESSION37:
             await self.app37.start()
-        if vclient38:
+        if Var.VC_STRING_SESSION38:
             await self.app38.start()
-        if vclient39:
+        if Var.VC_STRING_SESSION39:
             await self.app39.start()
-        if vclient40:
+        if Var.VC_STRING_SESSION40:
             await self.app41.start()
-        if vclient42:
+        if Var.VC_STRING_SESSION42:
             await self.app42.start()
-        if vclient43:
+        if Var.VC_STRING_SESSION43:
             await self.app43.start()
-        if vclient44:
+        if Var.VC_STRING_SESSION44:
             await self.app44.start()
-        if vclient45:
+        if Var.VC_STRING_SESSION45:
             await self.app45.start()
-        if vclient46:
+        if Var.VC_STRING_SESSION46:
             await self.app46.start()
-        if vclient47:
+        if Var.VC_STRING_SESSION47:
             await self.app47.start()
-        if vclient48:
+        if Var.VC_STRING_SESSION48:
             await self.app48.start()
-        if vclient49:
+        if Var.VC_STRING_SESSION49:
             await self.app49.start()
-        if vclient50:
+        if Var.VC_STRING_SESSION50:
             await self.app50.start()
         
           
