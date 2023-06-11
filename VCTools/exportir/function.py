@@ -397,7 +397,7 @@ if Var.VC_STRING_SESSION44:
     vc_player44 = VCTools(vc_client44)
 else:
     vc_player44 = None
-if VC_STRING_SESSION45:
+if Var.VC_STRING_SESSION45:
     vc_player45 = VCTools(vc_client45)
 else:
     vc_player45 = None
