@@ -67,7 +67,7 @@ async def is_url_ok(url: str):
 def sudoers():
     return _sudousers_list() 
 
-
+from userbot.resources.en import *
 def owner_and_sudos():
     return [udB.get_key("OWNER_ID") or Config.OWNER_ID, *sudoers()]
 
