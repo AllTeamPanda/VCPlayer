@@ -65,6 +65,8 @@ async def is_url_ok(url: str):
         LOGS.debug(er)
         return False
     
+vcClient = PandaBot
+HNDLR = Config.COMMAND_HAND_LER  
 def sudoers():
     return _sudousers_list() 
 
