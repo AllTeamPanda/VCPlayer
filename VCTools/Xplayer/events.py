@@ -84,7 +84,7 @@ ACTIVE_CALLS, VC_QUEUE = [], {}
 MSGID_CACHE, VIDEO_ON = {}, {}
 CLIENTS = {}
 
-
+"""
 if udB.get_key("VCMODE"):
     if PandaBot:
         _client = GroupCallFactory(
@@ -305,4 +305,4 @@ if udB.get_key("VCMODE"):
                     )
 
 
-
+"""
