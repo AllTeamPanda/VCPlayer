@@ -55,7 +55,7 @@ from userbot.resources import (
     eod,
     eor,
 )
-from userbot.helper.utils.misc import async_searcher
+from userbot.helpers.utils.misc import async_searcher
 from userbot.config import Config
 
 async def is_url_ok(url: str):
