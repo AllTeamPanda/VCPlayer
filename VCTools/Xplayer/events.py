@@ -40,8 +40,9 @@ from telethon.errors.rpcerrorlist import (
     ParticipantJoinMissingError,
     ChatSendMediaForbiddenError,
 )
+
 from userbot._misc.data import _sudousers_list
-from userbot import udB, LOGS, tgbot
+from userbot import *
 from userbot.resources import (
     bash,
     downloader,
